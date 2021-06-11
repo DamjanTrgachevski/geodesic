@@ -1,0 +1,7 @@
+0. Install Docker engine (https://docs.docker.com/engine/install/ubuntu/)
+
+1. INSTALL GEODESIC
+docker run --rm cloudposse/geodesic:latest-debian | bash -s latest-debian
+
+2. START THE GEODESIC SHELL 
+docker run -it --rm --volume $HOME:/localhost cloudposse/geodesic:latest-debian --login
